@@ -1,0 +1,73 @@
+/* Global layout och typografi */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Begränsa textbredd för bättre läsbarhet */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Header och footer */
+header, footer {
+    background-color: #003366;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+header h1 {
+    margin: 0 0 0.5rem 0;
+}
+
+header p {
+    margin: 0;
+}
+
+/* Sektioner (t.ex. veckor) */
+section {
+    margin-bottom: 2rem;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Rubriker */
+h2 {
+    color: #003366;
+    margin-top: 0;
+}
+
+/* Lista av laborationer */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Länkar */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+}
